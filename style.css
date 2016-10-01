@@ -237,12 +237,6 @@ a.social_link {
 	text-decoration: none;
 }
 
-
-
-
-
-
-
 a:link{
 	color: white;
 }
@@ -256,7 +250,7 @@ a:hover{
 /* Responsive */
 
 /*Mobile */
-@media only screen and (min-width: 480px) and (max-width: 599px){
+@media only screen and (max-width: 599px){
 
 	.product_div{
 	width: 100% !important;
