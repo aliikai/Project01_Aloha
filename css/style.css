@@ -175,8 +175,7 @@ a:hover{
 	background-image: url(../images/wave-bkgd.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
-	background-size: 100%;
+	background-size: cover;
 	padding: 100px 0;
 }
 
