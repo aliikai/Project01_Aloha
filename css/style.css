@@ -110,7 +110,7 @@ a:hover{
 		url(../images/banner-girl.png),
 		url(../images/flower-bkgd.jpg);
 	background-repeat: repeat-x, no-repeat;
-	background-size: contain, auto;
+	background-size: cover, contain;
 	background-position: center top, 50% 100px;
 	top: 65px;
 	height: 975px;
@@ -175,6 +175,7 @@ a:hover{
 	background-image: url(../images/wave-bkgd.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: contain;
 	background-size: 100%;
 	padding: 100px 0;
 }
@@ -255,4 +256,17 @@ a:hover{
 
 /* Responsive */
 
-@media width and(max-width: 600px)
+/*Mobile*/
+@media only screen and (max-width: 599px) {
+
+	.product_div{
+	width: 100%;
+	}
+}
+
+
+
+
+
+
+
