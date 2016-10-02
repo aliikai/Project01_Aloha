@@ -90,17 +90,25 @@ a:hover{
 /*Header & Navigation*/
 .logo{
 	width: 10%;
+	padding: 10px;
+	margin-left: 120px;
 }
 
 .aloha{
 	max-width: 100%;
-	padding-left: 10%;
+	
 }
 
 .navigation{
 	float: right;	
 }
 
+.cart_img{
+	height: 70px;
+	width: 70px;
+	margin-right: 120px;
+	padding: 10px;
+}
 
 /*Banner Section*/
 .intro_img {
@@ -122,11 +130,12 @@ a:hover{
 .intro_content{
 	position: relative;
 	text-align: center;
-	padding-top: 25%;
+	
 }
 
 .new_collection3{
 	position: relative;
+	padding-top: 175px;
 	text-align: center;
 	font-size: 1.25rem;
 }
@@ -135,7 +144,7 @@ a:hover{
 	position: relative;
 	text-align: center;
 	font-size: 4rem;
-	line-height: 20%;
+	
 }
 
 
@@ -149,14 +158,17 @@ a:hover{
 
 
 /*Products Section*/
-.intro_title{
-	padding-top: 70px;
+
+.no_top_margin{
+	margin-top: 0;
 }
+
 
 .product_div{
 	float: left;
 	text-align: center;
 	width: 25%;
+	padding-bottom: 70px;
 }
 
 .product_category{
@@ -166,7 +178,8 @@ a:hover{
 .product_name{
 	color: #E2574C;
 	font-size: 1.5em;
-	margin: none;
+	margin: auto;
+
 }
 
 
@@ -215,7 +228,6 @@ a:hover{
  	border: none;
  }
 
-
 /*Footer Section*/
 .footer_info{
 	background-color: #242424;
@@ -258,7 +270,13 @@ a:hover{
 }
 
 
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
 
+	.product_div{
+	width: 50% !important;
+	}
+}
 
 
 
