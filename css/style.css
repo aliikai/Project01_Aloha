@@ -214,7 +214,7 @@ a:hover{
 }
 
 .text_input{
-	width: 175px;
+	width: 180px;
 	font-size: 16px;
 	padding: 10px;
 	border: none;
@@ -227,6 +227,7 @@ a:hover{
  	padding: 10px;
  	border: none;
  }
+
 
 /*Footer Section*/
 .footer_info{
@@ -267,6 +268,40 @@ a:hover{
 	.product_div{
 	width: 100% !important;
 	}
+
+	.new_collection1{
+		font-size: 3rem;
+	}
+
+	.footer_padding{
+		padding: 20px 0 20px 0;
+		position: relative;
+		text-align: center;
+	}
+
+	.float_left{
+		float: none;
+	}
+
+	.float_right{
+		float: none;
+	}
+
+	.footer_info{
+		margin: auto;
+
+	}
+	.social_media{
+		padding: 0;
+		position: relative;
+		text-align: center;
+	}
+	.network_text {
+		display:
+		padding-bottom: 5px;
+		margin-bottom: 0;
+	}
+
 }
 
 
@@ -276,6 +311,8 @@ a:hover{
 	.product_div{
 	width: 50% !important;
 	}
+
+
 }
 
 
