@@ -10,6 +10,9 @@ html, body {
 	overflow-y: auto;
 }
 
+.mobile{
+	display: hidden;
+}
 
 /*Reusable Properties*/
 .float_left{
@@ -233,8 +236,10 @@ a:hover{
 /*Footer Section*/
 .footer_info{
 	background-color: #242424;
+	position: relative;
 	font-family: "Playfair Display", serif;
 	width: 100%;
+	background-size: cover;
 }
 
 .footer_padding{
@@ -266,41 +271,39 @@ a:hover{
 /*Mobile */
 @media only screen and (max-width: 599px){
 
-	.product_div{
-	width: 100% !important;
+	.footer_padding{
+		padding-left: none;
+	}
+	
+	.logo{
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	margin: 10px 0 0 0;
 	}
 
 	.new_collection1{
 		font-size: 3rem;
 	}
-
-	.footer_padding{
-		padding: 20px 0 20px 0;
-		position: relative;
+	
+	.mobile_center{
+		align-content: center;
 		text-align: center;
 	}
 
-	.float_left{
-		float: none;
+	.cart_img{
+	height: 70px;
+	width: 70px;
+	margin-right: 0px;
+	padding: 10px;
 	}
 
-	.float_right{
-		float: none;
+	.product_div{
+	width: 100% !important;
 	}
 
-	.footer_info{
-		margin: auto;
-
-	}
 	.social_media{
-		padding: 0;
-		position: relative;
-		text-align: center;
-	}
-	.network_text {
-		display: none;
-		padding-bottom: 5px;
-		margin-bottom: 0;
+		float:none;
 	}
 
 }
@@ -309,11 +312,21 @@ a:hover{
 /*Tablet*/
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
 
+	.logo{
+		width: 20%;
+	}
+
 	.product_div{
 	width: 50% !important;
 	}
 
+	.footer_padding{
+		padding-left: 60px;
+	}
 
+	.social_media{
+	padding: 30px 60px 30px 0;
+}
 }
 
 
