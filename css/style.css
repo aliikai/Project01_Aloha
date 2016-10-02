@@ -211,10 +211,11 @@ a:hover{
 	border-style: solid;
 	border-color: white;
 	margin: 30px, 0, 30px, 0;
+
 }
 
 .text_input{
-	width: 180px;
+	width: 177px;
 	font-size: 16px;
 	padding: 10px;
 	border: none;
@@ -297,7 +298,7 @@ a:hover{
 		text-align: center;
 	}
 	.network_text {
-		display:
+		display: none;
 		padding-bottom: 5px;
 		margin-bottom: 0;
 	}
